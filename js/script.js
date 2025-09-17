@@ -13,7 +13,11 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
+    if (i % 3 === 0) {
+        console.log("fizz"); 
+    } else {
+        console.log(i); 
+    }
     
 }
 
